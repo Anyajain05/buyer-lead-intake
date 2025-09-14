@@ -1,20 +1,37 @@
 Buyer Leads — Mini App
+
 Capture, list and manage buyer leads — built with Next.js (App Router) + TypeScript, Prisma + Postgres/SQLite, Zod validation, simple magic-link demo auth, CSV import/export, history + concurrency protection.
+
 Quick links
+
 •	- Repo: https://github.com/Anyajain05/buyer-lead-intake.git
+
 •	- Live (Vercel): https://buyerleadintake.vercel.app/dashboard
+
 Prerequisites
+
 •	- Node.js 18+
+
 •	- npm or pnpm
+
 •	- Git
+
 •	- Postgres (recommended) or SQLite
+
 •	- Prisma
+
 Environment setup
+
 •	Create a `.env` in the root:
+
 •	DATABASE_URL="postgresql://user:password@localhost:5432/buyer_leads_db?schema=public"
+
 •	NEXT_PUBLIC_APP_URL="http://localhost:3000"
+
 •	NEXTAUTH_SECRET="a_long_random_string_for_signing"
+
 •	Optional SQLite for dev: DATABASE_URL="file:./dev.db"
+
 Local setup
 •	git clone  https://github.com/Anyajain05/buyer-lead-intake.git
 •	cd buyer-lead-intake
